@@ -1,0 +1,70 @@
+@import 'https://fonts.googleapis.com/css?family=Pavanam';
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,500';
+#home_page{
+    margin:0;
+
+}
+.notification{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top:0;
+    width:100%;
+    height:40%;
+    background-color: #ECF0F1;
+}
+.title-div{
+    position: absolute;
+    top:5%;
+    width:100%;
+    
+}
+.title-note{
+    position: absolute;
+    left:10%;
+    font-weight: 400;
+}
+.subtitle-div{
+    position: absolute;
+    top:35%;
+    width:100%;
+    text-align: center;
+}
+.subtitle-note{
+        font-weight: 400;
+}
+.btn-yes{
+    position: absolute;
+    bottom:5%;
+    left:15%;
+    width:30%;
+    height:16%;
+}
+.btn-yes:hover{
+    background-color: #95A5A6;
+}
+.btn-yes-text{
+    margin:0;
+    position: absolute;
+    top:30%;
+    left:38%;
+    font-weight: 500;
+    font-size: 17px;
+}
+.btn-no{
+    position: absolute;
+    bottom:5%;
+    right:15%;
+    width:30%;
+    height:16%;
+}
+.btn-no:hover{
+    background-color: #95A5A6;
+}
+.btn-no-text{
+   margin:0;
+       position: absolute;
+    top:30%;
+    left:40%;
+        font-weight: 500;
+    font-size: 17px;
+}
